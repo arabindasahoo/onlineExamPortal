@@ -23,4 +23,10 @@ public class ImageController {
 	{
 		return "index";
 	}
+	@PostMapping(value = "/")
+	public String getImage()
+	{
+		return "index";
+	}
+	
 }
